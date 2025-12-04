@@ -1,0 +1,52 @@
+You are a senior frontend engineer and UI/UX designer.
+
+Create a complete single-page landing page for an event called "AI Developer Workshop".
+Everything must be in ONE HTML file:
+- semantic HTML
+- one <style> block with CSS
+- one <script> block with vanilla JavaScript
+- no external frameworks or imports.
+
+Requirements:
+1) Hero section at the top:
+   - Title: “AI Developer Workshop”
+   - Short subtitle (1–2 sentences) about learning AI tools for developers
+   - Primary button: “Join the workshop”
+   - Secondary button: “View agenda”
+
+2) Features section with 3 cards:
+   - “Code Assistants”
+   - “AI APIs & Integration”
+   - “Best Practices & Ethics”
+   Each card: icon (emoji is fine), title, short description.
+
+3) Section titled “Why AI tools matter for developers”
+   - 3–4 bullet points about productivity, clean code, collaboration, responsible AI.
+
+4) Simple “Schedule” section
+   - 3 steps (Intro, Live Demo, Q&A) in a simple vertical or horizontal timeline.
+
+5) Visual style:
+   - Clean modern SaaS look, soft gradient background or subtle shapes
+   - Rounded cards, soft shadows, comfortable spacing
+   - Use system fonts only.
+
+6) Dark mode:
+   - Add a dark mode toggle in the top-right (e.g. 🌙 / ☀️)
+   - Clicking it toggles a "dark-mode" class on <body>
+   - Define CSS for both light and dark, with smooth color transitions.
+
+7) Floating chat bubble:
+   - Floating button bottom-right labeled “AI Helper”
+   - When clicked, open a small glassmorphism-style panel above it
+   - Panel shows 3 static questions & answers:
+     - “What will I learn?”
+     - “Do I need AI experience?”
+     - “Is the workshop hands-on?”
+   - Clicking again (or a close icon) closes the panel.
+
+8) Interactions & responsiveness:
+   - Hover effect: feature cards slightly lift with stronger shadow
+   - “Join the workshop” button scrolls smoothly to the “Why AI tools matter” section
+   - Use flexbox or CSS grid so layout is responsive:
+     - On small screens: center hero text and stack feature cards vertically.
