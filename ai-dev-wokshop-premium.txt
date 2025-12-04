@@ -1,0 +1,54 @@
+You are a senior frontend designer and creative director.
+
+Take the existing HTML landing page I gave you and transform it into a premium, high-tech event website.
+Keep everything in ONE HTML file and keep the main sections already present,
+but enhance the design and add the following:
+
+1) Enhanced hero:
+   - Subtle animated background (gradient waves or floating shapes)
+   - Short tagline under the title (e.g. “Master the tools that boost modern software engineering”)
+   - Small badges under the buttons: “Free Entry”, “Hands-on”, “For Developers”
+   - Small animated arrow pointing down (“scroll to explore”).
+
+2) “What You Will Learn” section:
+   - 4 blocks in a responsive grid:
+     - AI-powered code assistants
+     - API integration techniques
+     - Prompt engineering
+     - Best practices for responsible AI
+   - Each block: icon, title, 2–3 line description.
+
+3) “Speakers” section:
+   - 3 speaker cards with round photo placeholders, name, title, and short bio.
+   - On hover: card lifts slightly with a soft glow.
+
+4) “Workshop Program Timeline”:
+   - 4 steps: Introduction, Tools & Best Practices, Live Demo, Q&A + Networking.
+   - Each step has an icon and short description.
+   - Use simple fade-in animation on scroll (with vanilla JS and CSS).
+
+5) “Testimonials” section:
+   - 3 testimonial bubbles with quotes from past attendees.
+   - Subtle sliding or auto-carousel-style animation.
+
+6) “Registration Form” section:
+   - Fake form with fields: Name, Email, City, Experience Level (dropdown).
+   - Button: “Register Now”.
+   - Simple JavaScript validation (require all fields).
+   - On success, show a modal-style success popup with a short confirmation message.
+
+7) Footer:
+   - Contact email
+   - Small social media icons (can use emojis)
+   - Copyright line
+   - Text: “Made with ❤️ using AI”.
+
+8) Style & dark mode:
+   - Use premium SaaS look: glassmorphism panels, gradients, vibrant accent color, smooth transitions.
+   - Improve dark mode: good contrast, animated transitions when toggling, adapt shapes and accents for dark theme.
+
+9) AI Helper bubble:
+   - Keep the bubble but improve the panel with:
+     - small typing animation effect
+     - a fake “AI is thinking…” shimmer bar
+     - an extra Q&A item.
